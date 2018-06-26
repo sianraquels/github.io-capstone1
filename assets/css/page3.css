@@ -1,0 +1,19 @@
+/*@import url('https://fonts.googleapis.com/css?family=Cookie|Pacifico');*/
+/*@import url('https://fonts.googleapis.com/css?family=Spirax');*/
+@import url('https://fonts.googleapis.com/css?family=Crete+Round');
+
+
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	/*font-family: 'Pacifico', cursive;*/
+	/*font-family: 'Spirax', cursive;*/
+	font-family: 'Crete Round', serif;
+}
+div > img{
+
+}
+.card::hover{
+ transform: scale(1.5);
+}

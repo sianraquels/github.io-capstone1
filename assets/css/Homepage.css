@@ -1,0 +1,362 @@
+/*@import url('https://fonts.googleapis.com/css?family=Pacifico');*/
+@import url('https://fonts.googleapis.com/css?family=Cookie|Pacifico');
+*{
+	/*outline: 2px solid red;*/
+
+	font-family: 'Pacifico', cursive;
+	/*height: 100%;*/
+	/*color: white;*/
+	/*width: 100%;*/
+	/*background-color: black;*/
+}
+
+body
+{
+	
+}
+.card{
+	/*height: 500px;*/
+}
+h1
+{
+	font-size: 50px;
+	text-align: center;
+	color:grey;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+h3 {
+	font-size: 40px;
+	text-align: center;
+	color:yellow;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+/*PARALLAX EFFECT*/
+/*.parallax
+{
+	overflow: hidden;
+	width: 100%;
+	height: 500px;
+	background-image: url('../img/favicon.JPEG');
+	background-size: 100% 100%;
+}
+.parallax-inner 
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}*/
+
+.parallax-home
+{
+	width: 100%;
+	overflow: hidden;
+	height: 550px;
+}
+.parallax-tourist,
+.parallax-restaurant,
+.parallax-events
+{
+	overflow: hidden;
+	width: 100%;
+	height: 900px;
+	/*border: 1px solid yellow;*/
+
+}
+.parallax-home
+{
+	background-image: url('../img/LP.JPEG');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 150px;
+	/*background-attachment: fixed;*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	/*border-radius: 25px;*/
+	/*border:2px solid black;*/
+}
+.parallax-menu
+{
+	content:0 auto ;
+	text-align: center;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 100%;
+	height: 200px;
+	/*background-color: white;*/
+}
+/*NABAR css*/
+.container > ul
+{
+	position: relative;
+	/*padding-top: 100px;*/
+	/*top: 50%;*/
+	left:20%;
+	/*transform: translate(-50%,-50%);*/
+	margin-top: 50px;
+	padding: 0px;
+	display: flex;
+	vertical-align: center;
+}
+ul li 
+{
+	list-style: none;
+	margin: 0 35px;
+}
+ul li a > .svg-inline--fa
+ {
+ 	/*font-size: 4em;*/
+ 	padding-top: 10px;
+	font-size: 40px;
+	color: #262626;
+	line-height: 80px;
+	transition: 0.5s;
+}
+ul li a 
+{
+	position: relative;
+	display: block;
+	width: 80px;
+	height: 80px;
+	background: green;
+	text-align: center;
+	transform:perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
+	transition: 0.5s;
+	box-shadow: -20px 20px 10px rgba(0,0,0,0.5);
+}
+ul li a:before 
+{
+	content: '';
+	position: absolute;
+	top: 10px;
+	left:-20px;
+	height: 100%;
+	width: 20px;
+	background:#b1b1b1;
+	transition: .5s;
+	transform: rotate(0deg) skewY(-45deg);
+}
+ul li a:after
+{
+	content: '';
+	position: absolute;
+	bottom: -20px;
+	left:-10px;
+	height: 20px;
+	width: 100%;
+	background:#b1b1b1;
+	transition: .5s;
+	transform: rotate(0deg) skewX(-45deg);
+}
+ul li a:hover 
+{
+	transform:perspective(1000px) rotate(-30deg) skew(25deg) translate(20px,-20px);
+	box-shadow: -50px 50px 50px rgba(0,0,0,0.5);
+
+}
+a {
+	text-align: center;
+	font-family: serif;
+	font-size: 14px;
+	color: black;
+	transform-style: none;
+}
+/*NABAR css*/
+
+/*tpursit*/
+.parallax-tourist
+{
+	position: relative;
+	background-image: url('../img/arayat.jpg');
+	min-height: 300px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: 	black;
+}
+/*paralalx-resta*/
+.parallax-restaurant
+{
+	background-image: url('../img/bale-ca.jpg');
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: 	black;
+}
+.parallax-menu-sec
+{
+	width: 100%;
+	height: 30px;
+	/*background-color: green;*/
+}
+.parallax-events
+{
+	background-image: url('../img/giant-lantern.jpg');
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.footer 
+{
+	width: 100%;
+	height: 50px;
+}
+.parallax-inner > img 
+{
+	/*top: 50%;*/
+	/*width: 40%;*/
+	/*height: 30%;*/
+	/*margin-left: 30%;*/
+	/*margin-bottom: 30%;*/
+	/*vertical-align: center;*/
+	/*display: inline-flex;*/
+	/*margin: 0 auto;*/
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 50%;
+}
+/*CARD FLIP*/
+.card-container
+{
+	/*float: left;*/
+	/*align-self: center;*/
+	overflow: hidden;
+	margin: 30px;
+	height: 250px;
+	width: 100%;
+	/*background: black;*/
+	opacity: 10px;
+	display: inline-flex;
+	opacity: -10px;
+	/*left: 10%;*/
+	/*right: 10%;*/
+	margin-top: 30px;
+	text-align: center;
+	vertical-align: center;
+}
+.maincontainer 
+{
+	/*overflow: hidden;*/
+	/*margin: 10px;*/
+	/*padding: 10px;*/
+	position: relative;
+	width: 30%;
+	height: 250px;
+	background: rgba(100,150,125,1);
+	margin-right: 10px;
+	/*margin-left: 10px;*/
+}
+.card-flip
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 0.1s ease;
+	/*background: blue;*/
+}
+.cardfront
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	/*background: yellow;*/
+	color: black;
+	/*overflow:hidden;*/
+}
+.cardback
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	background: rgba(100,150,125,0.5);
+	color: black;
+	transform: rotateY(180deg);
+}
+.card-flip:hover
+{
+	transform: rotateY(180deg);
+}
+/*end card flip*/
+.card-pic
+{
+	/*overflow: hidden;*/
+	margin: 0 auto;
+	width: 100%;
+    height: 250px;
+	/*align-self: center;*/
+}
+h2 {
+	margin:0px;
+	padding: 0px;
+}
+#Navbar
+{
+ visibility: hidden;
+}
+
+#btn-smallscale
+{
+	visibility: hidden;
+}
+@media screen and (max-width:768px)
+{
+	.parallax-menu
+	{
+		display: none;
+	}
+	.cardflip
+	{
+		overflow: hidden;
+	}
+	p
+	{
+		font-size: 10px;
+	}
+
+
+.footer > h3 
+{
+	display: block;
+	margin-top: 1%;
+	color:black;
+	font-size: 10px;
+}
+
+	.card-flip:hover 
+
+	{
+		transform: none;
+	}
+	#Navbar
+	{
+		visibility: visible;
+	}
+	ul {
+		visibility: hidden;
+	}
+
+#btn-smallscale
+{
+	visibility: visible;
+	/*width: 50%*/
+	margin:auto;
+	display: block;
+	vertical-align: center;
+	text-align: center;
+	width: 150px;
+	height: 50px;
+}
+
+}

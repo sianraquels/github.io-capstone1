@@ -1,0 +1,9 @@
+menu-bar-3d
+
+contenedor-menu = container-menu
+pagina-izquierda= pager
+delante =front-page
+atras = inside-scope
+contendor-list = container-list
+litsa-uno = list-one
+lado - rotate

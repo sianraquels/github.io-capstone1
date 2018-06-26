@@ -1,0 +1,38 @@
+body
+{
+	padding: 0px;
+	margin: 0px;
+	background-image: url('../img/IMG_3127.JPEG');
+	background-size: 100% 100%;
+}
+#explore
+{
+	vertical-align: center;
+	background-size: cover;
+	background-position: center;
+}
+.panel-body > .svg-inline--fa,
+.panel-body p > .svg-inline--fa 
+{
+	/*position: relative;*/
+	display: block;
+	margin: auto;
+	font-size: 2em;
+	text-align: center;
+	align-self: center;
+	position: center;
+	/*background: black;*/
+	color: black;
+	border-radius: 50%;
+}
+.span > .svg-inline--fab 
+{
+	display: block;
+	font-size: 1em;
+	background: blue;
+}
+.item > img 
+{
+	width: 100px;
+	height: 100px;
+}
